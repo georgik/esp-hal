@@ -118,7 +118,7 @@ where
     {
         let config = TxChannelConfig {
             clk_divider: 1,
-            idle_output_level: false,
+            idle_output_level: true,
             carrier_modulation: false,
             idle_output: true,
 
